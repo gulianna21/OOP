@@ -7,6 +7,8 @@ public class Main {
         workers[3] = new Worker("Onegina Maria Adolif", "Cleaning woman", "onegina@maria.adolif", "+7 999 23 90 235", 66000.50 , 44);
         workers[4] = new Worker("Irun Irina Irgina", "Monster", "irun@irina.irgina", "+7 888 88 88 888", 200000, 45);
 
+        workers[0].setAge(78);
+        System.out.println(workers[4].getEmail());
 
         for (Worker value : workers) {
             if (value.getAge() > 40) {

@@ -17,7 +17,7 @@ public class Worker {
 
     public Worker() {
         this.FIO = "Ivaniv Oleg Gena";
-        this.position = "Menager";
+        this.position = "Manager";
         this.email = "ivaniv@oleg.gena";
         this.phone = "+7 999 99 99 999";
         this.salary = 350000.6;
